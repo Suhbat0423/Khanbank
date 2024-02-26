@@ -96,3 +96,32 @@
 .marbot {
   margin-bottom: 20px;
 }
+.nogoon2 {
+  color: #046f5d;
+}
+.shar {
+  color: gold;
+}
+.pdf {
+  color: red;
+  font-size: 20px;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #046f5d;
+  border-radius: 6px 6px 6px 6px;
+  color: white;
+}
+.button1 p {
+  margin-left: 12px;
+}
+.divid {
+  display: flex;
+}
+.button1:hover {
+  background-color: #329b7d;
+}

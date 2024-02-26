@@ -1,9 +1,13 @@
-import Head from "next/head";
 import style from "./page.module.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPowerOff, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPowerOff,
+  faChevronUp,
+  faFilePdf,
+  faDownload,
+} from "@fortawesome/free-solid-svg-icons";
 
 config.autoAddCss = false;
 
@@ -51,9 +55,28 @@ const Home = () => {
               <FontAwesomeIcon icon={faChevronUp} className={style.chev} />
             </div>
             <div className={style.paraBot}>
-              <p>Бүтээгдэхүүний нэр</p>
-              <p className={style.marbot}>Х.ГҮЙ ХАД/ИРГЭД/MNT</p>
+              <p className={style.nogoon2}>Бүтээгдэхүүний нэр</p>
+              <p className={`${style.marbot} ${style.nogoon2}`}>
+                Х.ГҮЙ ХАД/ИРГЭД/MNT
+              </p>
             </div>
+            <div className={style.paraBot}>
+              <p className={style.nogoon2}>Үйлчилгээний төрөл</p>
+              <p className={`${style.marbot} ${style.shar}`}>Дансны хуулга</p>
+            </div>
+            <div className={style.paraBot}>
+              <p className={style.nogoon2}>Файл</p>
+
+              <div className={style.divid}></div>
+              <p className={style.marbot}>
+                <FontAwesomeIcon icon={faFilePdf} className={style.pdf} />
+                SDFDSFA4T3
+              </p>
+            </div>
+            <a className={style.button1} href="../../medee.pdf" download>
+              <FontAwesomeIcon icon={faDownload} />
+              <p> Татах</p>
+            </a>
           </div>
         </div>
       </div>
