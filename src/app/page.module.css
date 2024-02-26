@@ -98,9 +98,10 @@
 }
 .nogoon2 {
   color: #046f5d;
+  font-weight: 700;
 }
 .shar {
-  color: gold;
+  color: rgb(158, 137, 18);
 }
 .pdf {
   color: red;

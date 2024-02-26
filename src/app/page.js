@@ -75,8 +75,8 @@ const Home = () => {
             </div>
             <a
               className={style.button1}
-              href="blob:https://www.messenger.com/53261583-9917-4f30-9b95-eb8a1cf903ee"
-              download
+              href="https://h2rsi9anqnqbkvkf.public.blob.vercel-storage.com/qQmaUs5-9KWYOtlMlB92SCWPGQtJgmPPCx09Ak.pdf"
+              download="aaa"
             >
               <FontAwesomeIcon icon={faDownload} />
               <p> Татах</p>
