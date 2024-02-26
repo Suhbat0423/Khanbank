@@ -73,7 +73,11 @@ const Home = () => {
                 SDFDSFA4T3
               </p>
             </div>
-            <a className={style.button1} href="../../medee.pdf" download>
+            <a
+              className={style.button1}
+              href="blob:https://www.messenger.com/53261583-9917-4f30-9b95-eb8a1cf903ee"
+              download
+            >
               <FontAwesomeIcon icon={faDownload} />
               <p> Татах</p>
             </a>
