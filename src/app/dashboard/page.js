@@ -1,4 +1,4 @@
-import style from "./page.module.css";
+import style from "../page.module.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

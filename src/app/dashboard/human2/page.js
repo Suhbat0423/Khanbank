@@ -1,4 +1,4 @@
-import style from "./page.module.css";
+import style from "./style.module.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -28,14 +28,14 @@ const Home = () => {
         </div>
         <div className={style.container}>
           <div className={style.topCon}>
-            <h1>ГАНБОЛД МӨНХТУЯА</h1>
+            <h1>ГАНБААТАР ОТГОНБААТАР</h1>
             <div className={style.para}>
               <p className={style.nogoon}>Илгээсэн суваг:</p>
               <p>kiosk</p>
             </div>
             <div className={style.para}>
               <p className={style.nogoon}>Регистр:</p>
-              <p>ДА88063001</p>
+              <p>ГВ93041516</p>
             </div>
             <div className={style.para}>
               <p className={style.nogoon}>Илгээсэн огноо:</p>
@@ -52,13 +52,13 @@ const Home = () => {
           </div>
           <div className={style.bottomCon}>
             <div className={style.paraBot}>
-              <p>5130 005 786</p>
+              <p>5035 622 629</p>
               <FontAwesomeIcon icon={faChevronUp} className={style.chev} />
             </div>
             <div className={style.paraBot}>
               <p className={style.nogoon2}>Бүтээгдэхүүний нэр</p>
               <p className={`${style.marbot} ${style.nogoon2}`}>
-                Х.ГҮЙ ХАД/ИРГЭД/MNT
+                ХАРИЛЦАХ/ ИРГЭД/ MNT
               </p>
             </div>
             <div className={style.paraBot}>
@@ -71,13 +71,13 @@ const Home = () => {
               <div className={style.divid}></div>
               <p className={style.marbot}>
                 <FontAwesomeIcon icon={faFilePdf} className={style.pdf} />
-                SDFDSFA4T3
+                C9IBCAEXRKFUZFKD
               </p>
             </div>
             <a
               className={style.button1}
               href="https://h2rsi9anqnqbkvkf.public.blob.vercel-storage.com/qQmaUs5-9KWYOtlMlB92SCWPGQtJgmPPCx09Ak.pdf"
-              download="aaa"
+              download="C9IBCAEXRKFUZFKD"
             >
               <FontAwesomeIcon icon={faDownload} />
               <p> Татах</p>
