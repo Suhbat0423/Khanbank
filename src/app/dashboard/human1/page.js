@@ -76,7 +76,7 @@ const Home = () => {
             </div>
             <a
               className={style.button1}
-              href="https://h2rsi9anqnqbkvkf.public.blob.vercel-storage.com/gwMjG9q-TE9c8PZtXlbxj1IFbCAk9sr7CAa2No.pdf"
+              href="https://h2rsi9anqnqbkvkf.public.blob.vercel-storage.com/O1VGVnW-SPliJa0PUZeJXdnIryfGfxMGEf0im5.pdf"
               download="0FH452BSY3QK1U0C.pdf"
             >
               <FontAwesomeIcon icon={faDownload} />
