@@ -71,13 +71,13 @@ const Home = () => {
               <div className={style.divid}></div>
               <p className={style.marbot}>
                 <FontAwesomeIcon icon={faFilePdf} className={style.pdf} />
-                0FH452BSY3QK1U0C
+                0FH452BSY3QL1OCH
               </p>
             </div>
             <a
               className={style.button1}
               href="https://h2rsi9anqnqbkvkf.public.blob.vercel-storage.com/O1VGVnW-SPliJa0PUZeJXdnIryfGfxMGEf0im5.pdf"
-              download="0FH452BSY3QK1U0C.pdf"
+              download="0FH452BSY3QL1OCH.pdf"
             >
               <FontAwesomeIcon icon={faDownload} />
               <p> Татах</p>

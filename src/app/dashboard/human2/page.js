@@ -71,7 +71,7 @@ const Home = () => {
               <div className={style.divid}></div>
               <p className={style.marbot}>
                 <FontAwesomeIcon icon={faFilePdf} className={style.pdf} />
-                C9IBCAEXRKFUZFKD
+                C9IBCAEXR3FULFKD
               </p>
             </div>
             <a
